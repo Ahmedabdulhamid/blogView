@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #343a40;
+    --text-light: #f8f9fa;
+    --background-light: #f4f4f9;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-light);
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  footer form input,
+  footer form button {
+    border-radius: 0;
+  }
+  
